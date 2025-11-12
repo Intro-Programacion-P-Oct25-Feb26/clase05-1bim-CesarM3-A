@@ -24,7 +24,9 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
-        if (!ciudad.equals("Loja")) {
+        if (!ciudad.equals("Loja")) { /*estamos realizando una negacion al 
+inicio del condicional
+            */ 
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
@@ -32,7 +34,9 @@ public class Ejemplo5 {
 
         int numero = 10;
 
-        if (numero != 10) {
+        if (numero != 10) { /*realizamos la negacion a la variable de tipo 
+            numerica
+            */
             System.out.println("correcto");
         }
 
