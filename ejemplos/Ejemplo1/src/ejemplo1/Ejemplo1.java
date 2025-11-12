@@ -7,8 +7,8 @@
  * un mensaje como sigue: Estudiante aprobado con un promedio: 8.1
  */
 package ejemplo1;
-import java.util.Locale;
 import java.util.Scanner;
+import java.util.Locale;
 /**
  *
  * @author reroes
@@ -36,7 +36,7 @@ entrada.useLocale(Locale.US);
                     + "promedio: %.2f\n", promedio);
         }
 
-        if (promedio > 7.5) {
+        if (promedio < 7.5) {
             System.out.printf("Estudiante reprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
