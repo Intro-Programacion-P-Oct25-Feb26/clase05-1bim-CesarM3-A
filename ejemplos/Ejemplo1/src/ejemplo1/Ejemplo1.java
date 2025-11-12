@@ -22,23 +22,24 @@ entrada.useLocale(Locale.US);
 
 
         double limiteNotas = 6.9;
+        double promedio;
         
         System.out.println("Ingrese el valor de la nota");
-        limiteNotas = entrada.nextDouble();
+        promedio = entrada.nextDouble();
 
-        if (limiteNotas >= 7.5) {
+        if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", limiteNotas);
+                    + "promedio: %.2f\n", promedio);
         }
 
-        if (limiteNotas == 7.5) {
+        if (promedio == limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", limiteNotas);
+                    + "promedio: %.2f\n", promedio);
         }
 
-        if (limiteNotas < 7.5) {
+        if (promedio < limiteNotas) {
             System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", limiteNotas);
+                    + "promedio: %.2f\n", promedio);
         }
     }
 
